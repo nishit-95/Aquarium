@@ -1,0 +1,1174 @@
+@media screen and (max-width: 1400px) {
+    .pic3 {
+        width: 920px;
+        height: auto;
+    }
+
+    .img13 {
+        margin-right: 94px;
+        margin-left: 180px;
+    }
+
+    .img14 {
+        margin-right: 0px;
+    }
+
+    .img15 {
+        margin-right: 94px;
+        margin-left: 180px;
+    }
+
+    .img16 {
+        margin-right: 0px;
+    }
+
+    .blueback {
+        width: 860px;
+    }
+
+    .threepic {
+        width: 803px;
+    }
+
+    footer {
+        /* margin-top: 0; */
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    #logo {
+        margin-left: 70px;
+    }
+
+    #navbar ul {
+        margin-left: 20px;
+    }
+
+    #navbar ul li a {
+        font-size: 18px;
+    }
+
+    #navbar ul li {
+        margin: 0px 16px;
+    }
+
+    .myfirstimg {
+        height: 600px;
+        width: 720px;
+    }
+
+    .myfirstpara {
+        margin-left: 70px;
+    }
+
+    .img2 {
+        width: 650px;
+        height: auto;
+    }
+
+    .secondpara {
+        width: auto;
+        margin: 50px 50px;
+        height: auto;
+    }
+
+    .heading {
+        width: auto;
+        font-size: 29px;
+        margin-right: 100px;
+    }
+
+    .btn2 {
+        display: block;
+    }
+
+    .pic3 {
+        width: 820px;
+        height: auto;
+    }
+
+    .img13 {
+        margin-left: 100px;
+    }
+
+    .img15 {
+        margin-left: 100px;
+    }
+
+    .img13 {
+        margin-right: 78px;
+    }
+
+    .img15 {
+        margin-right: 78px;
+    }
+
+    .blueback {
+        width: 755px;
+    }
+
+    .threepic {
+        width: 684px;
+    }
+
+    .basebox {
+        width: 940px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .pic3 {
+        width: 720px;
+        height: auto;
+    }
+
+    .img20 {
+        margin-left: 85px;
+    }
+
+    .img24 {
+        margin-left: 20px;
+    }
+
+    .img26 {
+        margin-left: 20px;
+    }
+
+    .heading6 {
+        margin-left: 85px;
+    }
+
+    .img22 {
+        margin-left: 20px;
+    }
+
+    .img13 {
+        margin-left: 60px;
+        margin-top: -75px;
+    }
+
+    .img14 {
+        margin-top: -75px;
+    }
+
+    .img15 {
+        margin-left: 60px;
+    }
+
+    .heading4 {
+        margin-top: -75px;
+    }
+
+    .basebox {
+        width: 850px;
+    }
+
+    .threepic {
+        margin-left: 112px;
+    }
+
+    .blueback {
+        margin-left: 33px;
+    }
+
+    .helm {
+        width: 90px;
+        height: 90px;
+    }
+
+    .img2 {
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .pic3 {
+        width: 650px;
+        height: auto;
+    }
+
+    #Activities {
+        flex-direction: column;
+    }
+
+    .img13 {
+        margin-right: 40px;
+        width: 240px;
+        height: auto;
+    }
+
+    .img14 {
+        width: 240px;
+        height: auto;
+    }
+
+    .img15 {
+        margin-right: 40px;
+        width: 240px;
+        height: auto;
+    }
+
+    .img16 {
+        width: 240px;
+        height: auto;
+    }
+
+    .heading6 {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .heading6::after {
+        margin: auto;
+    }
+
+    .img20 {
+        display: flex;
+        margin: auto;
+        margin-top: 73px;
+    }
+
+    .heading7 {
+        text-align: center;
+        margin: auto;
+        margin-top: 39px;
+    }
+
+    .para7 {
+        text-align: center;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .img21 {
+        display: flex;
+        margin: auto;
+    }
+
+    .subdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img22 {
+        margin-top: 70px;
+    }
+
+    .para8 {
+        margin-top: 70px;
+    }
+
+    .basebox {
+        width: 761px;
+    }
+
+    #group_1 {
+        margin-left: 100px;
+    }
+
+    .threepic {
+        margin-left: 79px;
+        width: 633px;
+    }
+
+    .blueback {
+        margin-left: 0px;
+        width: 710px;
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    .myfirstimg {
+        position: relative;
+        height: 83%;
+        width: 100%;
+        left: 0;
+        z-index: 1;
+    }
+
+    #navbar ul li {
+        margin: 0px 20px;
+    }
+
+    .myfirstpara {
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .btn {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 42px;
+    }
+
+    #About {
+        flex-direction: column;
+    }
+
+    .img2 {
+        z-index: 1;
+        margin: auto;
+        margin-top: 40px;
+        width: 750px;
+        height: auto;
+    }
+
+    .heading {
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading::after {
+        margin: auto;
+        margin-top: 0px;
+
+    }
+
+    .secondpara {
+        width: auto;
+        margin: 36px 150px;
+        height: auto;
+    }
+
+    #Exhibition {
+        flex-direction: column;
+    }
+
+    .heading1 {
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .heading1::after {
+        margin: auto;
+    }
+
+    .para2 {
+        text-align: center;
+        margin: 20px 100px;
+        width: auto;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn3 {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pic3 {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .img8 {
+        height: auto;
+        width: 309px;
+        margin-left: 70px;
+    }
+
+    .title1 {
+        font-size: 20px;
+    }
+
+    .title2 {
+        font-size: 20px;
+    }
+
+    .title3 {
+        font-size: 20px;
+    }
+
+    .img13 {
+        margin-left: 30px;
+        margin-right: 12px;
+    }
+
+    .img15 {
+        margin-left: 30px;
+        margin-right: 12px;
+    }
+
+    .welcome {
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .plunge {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .img2 {
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .blueback {
+        margin-top: 137px;
+        margin-right: 0;
+        z-index: -1;
+    }
+
+    .threepic {
+        margin-top: 153px;
+    }
+
+    .joint {
+        display: flex;
+        justify-content: right;
+    }
+
+    .basebox {
+        width: 685px;
+    }
+
+    .stream {
+        width: 328px;
+        font-size: 17px;
+    }
+
+    .address {
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #logo {
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    #navbar ul {
+        justify-content: center;
+    }
+
+    .myfirstimg {
+        margin-top: 50px;
+    }
+
+    .img2 {
+        width: 580px;
+    }
+
+    #forthSection {
+        flex-direction: column;
+
+    }
+
+    .img8 {
+        display: flex;
+        margin: auto;
+    }
+
+    .heading3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .heading3::after {
+        display: flex;
+        margin: auto;
+        margin-top: 17px;
+    }
+
+    .para3 {
+        text-align: center;
+        display: flex;
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    #Gallery {
+        flex-direction: column;
+    }
+
+    .heading4 {
+        text-align: center;
+        margin-left: 0px;
+
+    }
+
+    .heading4::after {
+        display: flex;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .para4 {
+        display: flex;
+        margin: auto;
+        text-align: center;
+        margin-top: 41px;
+    }
+
+    .title1 {
+        text-align: center;
+        margin-left: 0px;
+
+    }
+
+    .title2 {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .title3 {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .collection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img13 {
+        display: flex;
+        margin: auto;
+        margin-top: 80px;
+        width: 259px;
+    }
+
+    .img14 {
+        display: flex;
+        margin: auto;
+        margin-top: 80px;
+        width: 259px;
+    }
+
+    .img15 {
+        display: flex;
+        margin: auto;
+        margin-top: 80px;
+        width: 259px;
+    }
+
+    .img16 {
+        display: flex;
+        margin: auto;
+        margin-top: 80px;
+        width: 259px;
+    }
+
+    #forthSection {
+        flex-direction: column;
+    }
+
+    .basebox {
+        margin: auto;
+        margin-top: 70px;
+        z-index: 1;
+    }
+
+    #group_1 {
+        margin-left: 20px;
+    }
+
+    .img8 {
+        margin-top: 100px;
+    }
+
+    .para3 {
+        margin-top: 40px;
+    }
+
+    #Gallery {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .title1 {
+        margin-left: 350px;
+        margin-top: 40px;
+    }
+
+    .title2 {
+        margin-left: 265px;
+        margin-top: 10px;
+    }
+
+    .title3 {
+        margin-left: 323px;
+        margin-top: 10px;
+    }
+
+    .wavy {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .stream {
+        width: 432px;
+        font-size: 17px;
+        text-align: center;
+        margin: auto;
+        margin-top: 46px;
+    }
+
+    .team {
+        margin-top: 400px;
+    }
+
+    .curve {
+        height: 1165px;
+    }
+
+    .follow {
+        margin-top: 92px;
+    }
+
+    .contact {
+        margin-top: 92px;
+    }
+
+    .wholebox {
+        margin: auto;
+    }
+
+    .set {
+        margin: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    #logo {
+        margin-bottom: 108px;
+    }
+
+    #navbar {
+        margin-bottom: 50px;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    #navbar ul li a {
+        left: 0;
+        width: 99%;
+        padding: 12px 0px;
+        text-align: center;
+    }
+
+    #navbar ul li a:hover {
+        color: #1a2675;
+        border-bottom: none;
+        font-weight: bold;
+    }
+
+    .myfirstimg {
+        margin-top: 0px;
+    }
+
+    .myfirstpara {
+        width: auto;
+        height: auto;
+        margin: auto 50px;
+        margin-top: 20px;
+    }
+
+    .img2 {
+        width: 400px;
+    }
+
+    .heading4 {
+        margin-top: 180px;
+    }
+
+    .heading5 {
+        line-height: 0px;
+        font-size: 25px;
+    }
+
+    .title1 {
+        margin-left: 210px;
+    }
+
+    .title2 {
+        margin-left: 122px;
+    }
+
+    .title3 {
+        margin-left: 180px;
+    }
+
+    .blueback {
+        width: 583px;
+    }
+
+}
+
+@media screen and (max-width: 412px) {
+
+    .img2 {
+        width: 400px;
+    }
+
+    .secondpara {
+        width: auto;
+        margin: 36px 50px;
+        height: auto;
+    }
+
+    .heading {
+        font-size: 25px;
+    }
+
+    .heading::after {
+        width: 175px;
+    }
+
+    .btn {
+        width: 100px;
+    }
+
+    .btn2 {
+        width: 100px;
+    }
+
+    .heading1 {
+        text-align: center;
+        margin-top: 100px;
+        font-size: 25px;
+        width: auto;
+    }
+
+    .para2 {
+        margin: 38px 60px;
+        height: auto;
+    }
+
+    .heading1:after {
+        height: 6px;
+    }
+
+    .heading5 {
+        line-height: 26px;
+    }
+
+    .para5 {
+        width: auto;
+    }
+
+    .img20 {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .para7 {
+        width: auto;
+    }
+
+    .subdiv {
+        flex-direction: column;
+    }
+
+    .img22 {
+        display: flex;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .para8 {
+        width: auto;
+        text-align: center;
+        margin: auto 20px;
+        margin-top: 30px;
+    }
+
+    .img24 {
+        display: flex;
+        margin: auto;
+    }
+
+    .para9 {
+        width: auto;
+        text-align: center;
+        margin: auto 20px;
+        margin-top: 30px;
+    }
+
+    .img26 {
+        display: flex;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .para10 {
+        width: auto;
+        text-align: center;
+        margin: auto 20px;
+        margin-top: 30px;
+    }
+
+    .para3 {
+        width: auto;
+        margin: auto 60px;
+        margin-top: 60px;
+    }
+
+    .img20 {
+        width: 357px;
+        height: auto;
+
+    }
+
+    .heading4 {
+        margin-top: -120px;
+    }
+
+    .basebox {
+        width: 552px;
+    }
+
+    .welcome {
+        width: 400px;
+    }
+
+    .plunge {
+        font-size: 21px;
+        width: 400px;
+    }
+
+    footer {
+        font-size: 15px;
+        line-height: 0px;
+    }
+
+    .basebox {
+        width: 432px;
+    }
+
+    .crm {
+        height: 50px;
+        width: 50px;
+    }
+
+    .number {
+        font-size: 25px;
+    }
+
+    .client {
+        font-size: 13px;
+    }
+
+    .heading4 {
+        margin-top: -50px;
+    }
+
+    .helm {
+        width: 50px;
+        height: 50px;
+    }
+
+    .support {
+        font-size: 16px;
+    }
+
+    .threepic {
+        height: 230px;
+    }
+
+    .blueback {
+        width: 393px;
+        height: 266px;
+    }
+
+    .title1 {
+        margin-left: 140px;
+    }
+
+    .title2 {
+        margin-left: 53px;
+    }
+
+    .title3 {
+        margin-left: 110px;
+    }
+
+    .stream {
+        width: 330px;
+    }
+
+    .basebox {
+        width: 412px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .blueback {
+        width: 360px;
+        height: 235px;
+    }
+
+    .threepic {
+        margin-left: 60px;
+        height: 200px;
+    }
+
+    .basebox {
+        width: 400px;
+    }
+
+    .welcome {
+        width: 380px;
+    }
+
+    .plunge {
+        font-size: 20px;
+        width: 374px;
+    }
+
+    .img2 {
+        width: 370px;
+    }
+
+    .img20 {
+        width: 332px;
+        height: auto;
+    }
+
+    footer {
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 25px;
+    }
+
+    .basebox {
+        width: 373px;
+    }
+
+    .chat1 {
+        margin-left: 25px;
+    }
+
+    .chat2 {
+        margin-left: 25px;
+    }
+
+    .chat3 {
+        margin-left: 25px;
+    }
+
+    .curve {
+        height: 1175px;
+    }
+
+    .welcome {
+        font-size: 36px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .plunge {
+        font-size: 17px;
+        width: 318px;
+    }
+
+    .img2 {
+        width: 290px;
+    }
+
+    .basebox {
+        width: 317px;
+    }
+
+    .blueback {
+        width: 312px;
+        height: 216px;
+    }
+
+    .support {
+        margin-top: 0px;
+    }
+
+    .threepic {
+        height: 180px;
+    }
+
+    .helm {
+        margin-top: 50px;
+    }
+
+    .para4 {
+        width: auto;
+    }
+
+    .img20 {
+        width: 280px;
+        height: auto;
+    }
+
+    .stream {
+        width: 287px;
+    }
+
+    .curve {
+        height: 1360px;
+        margin-top: 0;
+    }
+
+    .address6 {
+        margin-left: 8px;
+    }
+
+    .address4 {
+        margin-left: 0;
+    }
+
+    .para3 {
+        margin-top: 34px;
+        margin-left: 8px;
+    }
+
+    .title1 {
+        margin-left: 70px;
+    }
+
+    .title2 {
+        margin-left: 11px;
+    }
+
+    .fresh {
+        margin-left: 55px;
+    }
+
+    .title3 {
+        margin-left: 43px;
+    }
+
+    span {
+        font-size: 13px;
+    }
+
+    .chat {
+        margin-left: 8px;
+    }
+
+    .chat1 {
+        margin-left: 8px;
+    }
+
+    .chat2 {
+        margin-left: 8px;
+    }
+
+    .chat3 {
+        margin-left: 8px;
+    }
+
+    footer {
+        font-size: 22px;
+        line-height: 29px;
+        margin-top: 25px;
+    }
+}
+
+
+@media screen and (max-width: 260px) {
+
+    .img2 {
+        width: 190px;
+    }
+
+    .img8 {
+        width: 226px;
+        height: auto;
+    }
+
+    .img28 {
+        width: 228px;
+    }
+
+    .img27 {
+        width: 228px;
+    }
+
+    .img21 {
+        width: 228px;
+    }
+
+    .img23 {
+        width: 228px;
+    }
+
+    .para4 {
+        width: auto;
+    }
+
+    .img20 {
+        width: 220px;
+    }
+
+    .heading3 {
+        margin-top: 70px;
+        font-size: 30px;
+    }
+
+    .heading4 {
+        font-size: 30px;
+    }
+
+    .title1 {
+        font-size: 18px;
+    }
+
+    .title2 {
+        font-size: 18px;
+    }
+
+    .title3 {
+        font-size: 18px;
+    }
+
+    .heading5 {
+        height: auto;
+    }
+
+    footer {
+        font-size: 11px;
+        letter-spacing: 0px;
+    }
+
+    .heading6 {
+        font-size: 23px;
+        margin-top: 55px;
+    }
+
+    .para3 {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1280px) {}

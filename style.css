@@ -1,0 +1,989 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'A Caslon Pro';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* -----------------Navigation Bar------------------ */
+
+#navbar {
+    display: flex;
+}
+
+#logo {
+    margin-left: 111px;
+    margin-top: 19px;
+    width: 102px;
+    height: 84px;
+}
+
+#logo img {
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+    padding: 17px 11px;
+}
+
+/* ----------Navigation Bar: List Styling --------------*/
+
+#navbar ul {
+    display: flex;
+    height: 18px;
+    margin-top: 50px;
+    margin-left: 79px;
+}
+
+#navbar ul li {
+    list-style: none;
+    margin: 0px 19px;
+}
+
+#navbar ul li a {
+    color: black;
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: 62px;
+}
+
+#navbar ul li a:hover {
+    color: #1a2675;
+    border-bottom: 0.125rem solid #1a2675;
+    font-weight: bold;
+}
+
+
+/* ------------Absolute img for Background-------------- */
+
+
+.myfirstimg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 666px;
+    width: 801px;
+    z-index: -1;
+    filter: drop-shadow(0px 0px 15px #000);
+}
+
+
+/*------------- css for home section-------------- */
+
+
+.welcome {
+    font-size: 40px;
+    font-weight: bold;
+    width: 453px;
+    text-align: center;
+    line-height: 45px;
+    letter-spacing: 2px;
+    margin-left: 112px;
+    margin-top: 172px;
+}
+
+.plunge {
+    font-size: 25px;
+    font-weight: bolder;
+    width: 453px;
+    text-align: center;
+    margin-left: 112px;
+    margin-top: 20px;
+}
+
+.myfirstpara {
+    width: 455px;
+    height: 71px;
+    margin-left: 111px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+
+.btn {
+    margin-top: 42px;
+    width: 141px;
+    height: 35px;
+    font-size: 14px;
+    text-align: center;
+    filter: drop-shadow(0rem 1rem 1rem rgba(0, 0, 0, 0.15));
+    background-color: #fefbfb;
+    border: none;
+    margin-left: 267px;
+}
+
+.btn:hover {
+    border: 0.063rem solid black;
+    cursor: pointer;
+}
+
+/* --------------------CSS for About Section--------------------- */
+
+#About {
+    display: flex;
+}
+
+.img2 {
+    height: 488px;
+    width: 637px;
+    margin-top: 219px;
+    margin-left: 120px;
+}
+
+.heading {
+    line-height: 50px;
+    color: #1a2675;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: right;
+    margin-top: 244px;
+    margin-right: 159px;
+}
+
+.heading::after {
+    content: '';
+    background-color: #1a2675;
+    height: 7px;
+    display: block;
+    margin-top: 12px;
+    width: 267px;
+    float: right;
+    margin-right: 2px;
+}
+
+.secondpara {
+    width: 490px;
+    height: 168px;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "Avenir LT Std";
+    text-align: center;
+    margin: auto;
+    margin-top: 41px;
+}
+
+.btn2 {
+    filter: drop-shadow(0rem 1rem 1rem rgba(0, 0, 0, 0.15));
+    background-color: #fefbfb;
+    border: none;
+    width: 141px;
+    height: 35px;
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 48px;
+}
+
+.btn2:hover {
+    border: 0.063rem solid black;
+    cursor: pointer;
+}
+
+/* ---------CSS for  OUR services---------------------- */
+
+#Exhibition {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.heading1 {
+    line-height: 50px;
+    color: #1a2675;
+    font-weight: bold;
+    font-size: 36px;
+    margin-left: 111px;
+    margin-top: 190px;
+    width: 274px;
+}
+
+.heading1::after {
+    content: '';
+    background-color: #1a2675;
+    height: 8px;
+    display: block;
+    margin-top: 12px;
+    width: 170px;
+    margin-left: 0px
+}
+
+.para2 {
+    height: 128px;
+    width: 242px;
+    margin-left: 111px;
+    margin-top: 38px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    font-family: "Avenir LT Std";
+}
+
+.btn3 {
+    filter: drop-shadow(0rem 1rem 1rem rgba(0, 0, 0, 0.15));
+    background-color: #fefbfb;
+    border: none;
+    width: 133px;
+    height: 36px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    font-family: "Avant Garde";
+    margin-left: 115px;
+    margin-top: 28px;
+}
+
+.btn3:hover {
+    border: 0.063rem solid black;
+    cursor: pointer;
+}
+
+.pic3 {
+    margin-top: 225px;
+    float: right;
+    width: 1020px;
+    height: 514px;
+}
+
+
+.threepic {
+    border-top-left-radius: 125px;
+    border-bottom-left-radius: 125px;
+    height: 282px;
+    width: 921px;
+    margin-left: 212px;
+    margin-top: 293px;
+    position: relative;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.helm {
+    height: 111px;
+    width: 111px;
+    margin-top: 63px;
+}
+
+.support {
+    font-size: 23px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    color: #000000;
+    font-family: "Avenir LT Std";
+    text-align: center;
+    margin-top: 26px;
+}
+
+.blueback {
+    position: absolute;
+    z-index: -1;
+    height: 314px;
+    width: 999px;
+    background-color: #1a2675;
+    margin-top: -298px;
+    margin-left: 133px;
+    border-radius: 137px;
+    filter: drop-shadow(0px 45px 28.5px rgba(0, 0, 0, 0.27));
+    background-image: linear-gradient(153deg, #00349c 0%, #264ce2 98%, #264ce2 100%);
+}
+
+
+/* ------------CSS for Why Choose us--------------- */
+
+
+#forthSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading3 {
+    font-size: 36px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #1a2675;
+    font-weight: bold;
+    font-family: "A Caslon Pro";
+    text-align: right;
+    margin-right: 119px;
+    margin-top: 143px;
+}
+
+.heading3::after {
+    content: '';
+    text-decoration: underline;
+    background-color: #1a2675;
+    width: 207px;
+    height: 8px;
+    display: block;
+    margin-top: 17px;
+    margin-left: 222px;
+}
+
+.para3 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    font-family: "Avenir LT Std";
+    width: 436px;
+    height: 183px;
+    text-align: right;
+    margin-right: 111px;
+    margin-top: 79px;
+}
+
+.img8 {
+    position: relative;
+    height: 452px;
+    width: 361px;
+    margin-left: 112px;
+    margin-top: 194px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    background-color: #000000;
+}
+
+/* ------------------------CSS for basebox------------------------ */
+
+.basebox {
+    position: relative;
+    width: 1060px;
+    height: 241px;
+    z-index: -1;
+    margin-left: 339px;
+    margin-top: -96px;
+    display: flex;
+    justify-content: space-around;
+    filter: drop-shadow(0px 44px 40.5px rgba(0, 0, 0, 0.56));
+    background-color: #ffffff;
+}
+
+.crm {
+    height: 65px;
+    width: 65px;
+    margin-top: 50px;
+}
+
+#group_1 {
+    margin-left: 50px;
+}
+
+#group_2 {
+    margin-left: -14px;
+}
+
+#group_3 {
+    margin-left: -25px;
+}
+
+.number {
+    font-size: 34px;
+    letter-spacing: 1px;
+    line-height: 57px;
+    color: #000000;
+    font-weight: 800;
+    font-family: "Avenir LT Std";
+}
+
+.client {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #000000;
+    font-weight: 800;
+    font-family: "Avenir LT Std";
+    text-align: center;
+}
+
+/* -------------CSS for Gallery--------------------- */
+#Gallery {
+    display: flex;
+    margin-top: 150px;
+}
+
+.heading4 {
+    margin-left: 113px;
+    font-size: 36px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #1a2675;
+    font-weight: bold;
+    font-family: "A Caslon Pro";
+    margin-top: 136px;
+}
+
+.heading4::after {
+    content: '';
+    width: 195px;
+    height: 8px;
+    background-color: #00349c;
+    display: block;
+    margin-top: 15px;
+}
+
+.para4 {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Avenir LT Std";
+    width: 354px;
+    height: 72px;
+    margin-left: 114px;
+    margin-top: 41px;
+}
+
+.title {
+    display: flex;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 31px;
+    color: #000000;
+    font-family: "Avenir LT Std";
+    margin-left: 113px;
+}
+
+.title1 {
+    margin-top: 71px;
+}
+
+.title2 {
+    margin-top: 30px;
+}
+
+.title3 {
+    margin-top: 36px;
+}
+
+.aquarium {
+    margin-left: 85px;
+}
+
+.fresh {
+    margin-left: 85px;
+}
+
+.water {
+    margin-left: 85px;
+}
+
+.title div:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.img13 {
+    height: 267px;
+    width: 275px;
+    margin-top: 136px;
+    margin-right: 123px;
+    margin-left: 200px;
+}
+
+.img14 {
+    height: 267px;
+    width: 275px;
+    margin-top: 136px;
+    margin-right: 123px;
+}
+
+.img15 {
+    height: 267px;
+    width: 275px;
+    margin-top: 57px;
+    margin-right: 123px;
+    margin-left: 200px;
+}
+
+.img16 {
+    height: 267px;
+    width: 275px;
+    margin-top: 57px;
+    margin-right: 123px;
+}
+
+/* ------------------------------------------------------------- */
+
+.img17 {
+    height: auto;
+    width: 100%;
+    left: 0px;
+    top: 3387px;
+    margin-top: 119px;
+}
+
+
+/* ---------------------CSS sixthSection-------------------------------------- */
+
+
+.heading5 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    line-height: 52px;
+    color: #00349c;
+    font-weight: 800;
+    font-family: "Avenir LT Std";
+    text-align: center;
+    height: 31px;
+    margin-top: 45px;
+}
+
+.para5 {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-family: "Avenir LT Std";
+    text-align: center;
+    width: 487px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.btn5 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #00349c;
+    font-family: "Avenir LT Std";
+    background-color: white;
+    border: none;
+    width: 118px;
+    display: flex;
+    margin: auto;
+    margin-top: 22px;
+}
+
+.btn5:hover {
+    text-decoration: underline 2px solid #00349c;
+    cursor: pointer;
+}
+
+.back {
+    width: 100%;
+    position: absolute;
+    height: 452px;
+    z-index: -1;
+    margin-top: -351px;
+}
+
+
+/* -----------------Css for Activities------------------------ */
+
+
+#Activities {
+    display: flex;
+}
+
+.heading6 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: #1a2675;
+    font-weight: bold;
+    font-family: "A Caslon Pro";
+    margin-top: 170px;
+    margin-left: 114px;
+}
+
+.heading6::after {
+    content: '';
+    width: 238px;
+    height: 8px;
+    background-color: #00349c;
+    display: block;
+    margin-top: 22px;
+}
+
+.img20 {
+    height: 348px;
+    border-radius: 30px;
+    width: 480px;
+    margin-left: 114px;
+    margin-top: 82px;
+}
+
+.heading7 {
+    margin-left: 121px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #000000;
+    font-weight: 800;
+    margin-top: 39px;
+    font-family: "Avenir LT Std";
+}
+
+.para7 {
+    margin-left: 116px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "Avenir LT Std";
+    width: 489px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.subdiv {
+    display: flex;
+}
+
+.img22 {
+    border-radius: 30px;
+    width: 145px;
+    height: 125px;
+    margin-left: 120px;
+    margin-top: 317px;
+}
+
+.para8 {
+    width: 365px;
+    margin-top: 320px;
+    margin-left: 47px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "Avenir LT Std";
+}
+
+.img23 {
+    margin-left: -7px;
+}
+
+.img24 {
+    border-radius: 30px;
+    width: 145px;
+    height: 125px;
+    margin-left: 120px;
+    margin-top: 90px;
+}
+
+.para9 {
+    margin-left: 47px;
+    margin-top: 90px;
+    width: 365px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "Avenir LT Std";
+}
+
+.img27 {
+    margin-left: -7px;
+}
+
+.img26 {
+    border-radius: 30px;
+    width: 145px;
+    height: 125px;
+    margin-left: 120px;
+    margin-top: 90px;
+}
+
+.para10 {
+    margin-left: 47px;
+    margin-top: 90px;
+    width: 365px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "Avenir LT Std";
+}
+
+.img28 {
+    margin-left: -7px;
+}
+
+.original {
+    display: flex;
+    margin-top: 18px;
+    align-items: center;
+}
+
+span {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #00349c;
+    font-family: "Avenir LT Std";
+    margin-left: 10px;
+}
+
+.calender {
+    width: 20px;
+    height: 20px;
+    margin-left: 120px;
+}
+
+.chat {
+    width: 15px;
+    height: 15px;
+    margin-left: 72px;
+}
+
+.eye {
+    width: 19px;
+    height: 19px;
+    margin-left: 45px;
+}
+
+.original1 {
+    display: flex;
+    margin-top: 18px;
+    align-items: center;
+}
+
+span {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #00349c;
+    font-family: "Avenir LT Std";
+    margin-left: 10px;
+}
+
+.calender1 {
+    width: 20px;
+    height: 20px;
+}
+
+.chat1 {
+    width: 15px;
+    height: 15px;
+    margin-left: 72px;
+}
+
+.eye1 {
+    width: 19px;
+    height: 19px;
+    margin-left: 45px;
+}
+
+.original2 {
+    display: flex;
+    margin-top: 18px;
+    align-items: center;
+}
+
+span {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #00349c;
+    font-family: "Avenir LT Std";
+    margin-left: 10px;
+}
+
+.calender2 {
+    width: 20px;
+    height: 20px;
+}
+
+.chat2 {
+    width: 15px;
+    height: 15px;
+    margin-left: 72px;
+}
+
+.eye2 {
+    width: 19px;
+    height: 19px;
+    margin-left: 45px;
+}
+
+.original3 {
+    display: flex;
+    margin-top: 18px;
+    align-items: center;
+}
+
+span {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #00349c;
+    font-family: "Avenir LT Std";
+    margin-left: 10px;
+}
+
+.calender3 {
+    width: 20px;
+    height: 20px;
+}
+
+.chat3 {
+    width: 15px;
+    height: 15px;
+    margin-left: 72px;
+}
+
+.eye3 {
+    width: 19px;
+    height: 19px;
+    margin-left: 45px;
+}
+
+
+
+/* ----------------------CSS for Contact---------------------------- */
+
+
+.curve {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: 110px;
+    height: 457px;
+}
+
+.wavy {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 110px;
+}
+
+.team {
+    font-size: 26px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: 292px;
+}
+
+.stream {
+    width: 352px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 35px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    margin-top: 46px;
+}
+
+.follow {
+    font-size: 26px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: 292px;
+}
+
+.contact {
+    font-size: 26px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: 292px;
+}
+
+.facebook {
+    margin-top: 45px;
+    width: 45px;
+    height: 45px;
+}
+
+.bottombox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wholebox {
+    width: 238px;
+}
+
+.address {
+    display: flex;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+}
+
+.address1 {
+    margin-top: 41px;
+}
+
+.address4 {
+    margin-top: 41px;
+    width: 182px;
+    margin-left: 42px;
+}
+
+.address2 {
+    margin-top: 52px;
+}
+
+.address5 {
+    margin-top: 26px;
+    margin-left: 42px;
+}
+
+.address3 {
+    margin-top: 34px;
+}
+
+.address6 {
+    margin-top: 34px;
+    margin-left: 42px;
+}
+
+.email a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.email a:hover {
+    text-decoration: underline;
+}
+
+#group_1 {
+    margin-left: 70px;
+}
+
+.original {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.calender{
+    margin-left: 0;
+}
+
+
+/* -----------------------------Css for footer-------------------------------- */
+
+
+footer {
+    position: relative;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Myriad Pro";
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
